@@ -10,6 +10,8 @@ namespace ism_console
 
     public class User
     {
+        // Adatmodell, validációk
+        
         // osztályszintű mező
         public static int UserCount = 0;
 
@@ -124,3 +126,4 @@ namespace ism_console
         }
     }
 }
+
