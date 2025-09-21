@@ -9,6 +9,8 @@ namespace ism_console
 {
     public class UserService
     {
+        // Controller metódusok
+        
         private List<User> users;
 
         public UserService(List<User> users)
@@ -167,3 +169,4 @@ namespace ism_console
 
     }
 }
+
