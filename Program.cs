@@ -6,6 +6,8 @@ namespace ism_console
 {
     class Program
     {
+        // UI metódusok: View 
+        
         public static List<User> users = new List<User>();
         public static UserService userService = new UserService(users);
 
@@ -156,3 +158,4 @@ namespace ism_console
         }
     }
 }
+
