@@ -141,7 +141,8 @@ namespace ism_console
             {
                 ShowMenu();
                 Console.Write("Választás: ");
-                string choice = Console.ReadLine();
+                //string choice = Console.ReadLine();
+                string choice = Console.ReadKey().KeyChar.ToString();
 
                 switch (choice)
                 {
@@ -158,4 +159,5 @@ namespace ism_console
         }
     }
 }
+
 
